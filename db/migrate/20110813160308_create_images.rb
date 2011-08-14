@@ -4,7 +4,7 @@ class CreateImages < ActiveRecord::Migration
       t.string :friend_name
       t.string :friend_mobile
       t.text :friend_address
-      t.date :friend_date__of_birth
+      t.date :friend_date_of_birth
 
       t.timestamps
     end

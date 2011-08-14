@@ -16,13 +16,9 @@ ActiveRecord::Schema.define(:version => 20110813162525) do
     t.string   "friend_name"
     t.string   "friend_mobile"
     t.text     "friend_address"
-    t.date     "friend_date__of_birth"
+    t.date     "friend_date_of_birth"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "avatar_file_name"
-    t.string   "avatar_content_type"
-    t.integer  "avatar_file_size"
-    t.datetime "avatar_updated_at"
   end
 
 end
